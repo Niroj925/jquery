@@ -1,0 +1,39 @@
+
+.text-decorate{
+    font-family:ubuntu;
+    font-style: italic;
+    font-size:25px;
+    font-weight: bold;
+    color: rgb(1, 97, 68);
+    display: inline;/*this will not occupy whole block*/
+}
+.butn{
+    background-color:rgb(200, 212, 214);
+    border: 1px solid;
+    border-color: green;
+    font-weight: bold;
+    width: 90px;
+    height:30px;
+}
+.margin{
+    margin-left:20px; 
+}
+.butn:hover{
+    background-color:rgb(58, 109, 218);
+    width: 100px;
+    height:40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ddbox{
+    width: 20%;
+    height:15%;
+    background-color:grey;
+    text-decoration: none;
+}
+.headbox{
+    display: inline;
+    width: 30px;
+    height: 15px;
+    background-color:blueviolet;
+}
