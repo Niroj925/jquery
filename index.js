@@ -76,14 +76,14 @@ $('h3').on('mouseout',function(){
 
 //$('snap').slideToggle();
 //other properties are toggle mode can be used in any of them
-$('div.dd').hide();//intially hide the content
+$('div.dd').hide();//intially hide the content hide(500) in miliseconds
 $('h2').addClass('headbox');
 $('div.dd').addClass('ddbox');
 
 $('div.nv').css('display','inline');
-$('div.nv ').on('mouseover', function(){
-    $('div.dd').slideDown();  
+$('div.nv ').on('mouseenter', function(){
+    $('div.dd').slideDown(600);  
 })
-$('div.nv').on('mouseout', function(){
-   $('div.dd').slideUp();
+$('div.nv').on('mouseleave', function(){
+   $('div.dd').slideUp(500);
 })
